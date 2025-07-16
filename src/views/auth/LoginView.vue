@@ -42,7 +42,7 @@ const visible = ref(false)
                   <v-card
                     class="mx-auto pa-12 pb-8 mt-15 border-md"
                     elevation="8"
-                    max-width="448"
+                    max-width="500"
                     rounded="lg"
                   >
                     <div class="text-subtitle-1 text-medium-emphasis">Account</div>
@@ -69,7 +69,7 @@ const visible = ref(false)
                         rel="noopener noreferrer"
                         target="_blank"
                       >
-                        Forgot login password?</a
+                        Forgot password?</a
                       >
                     </div>
 
