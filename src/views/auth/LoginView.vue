@@ -44,44 +44,31 @@ const visible = ref(false)
                     elevation="8"
                     max-width="500"
                     rounded="lg"
+                    position-fixed
+                    opacity-20
                   >
-                    <div class="text-subtitle-1 text-medium-emphasis">Account</div>
+                    <h2 class="d-flex justify-center mb-2">CSUCC</h2>
 
                     <div class="mx-auto" max-width="344">
                       <v-text-field
+                        label="Email"
                         hide-details="auto"
                         placeholder="Email address"
                         prepend-inner-icon="mdi-email-outline"
-                        variant="plain"
-                        class="border-b-md"
+                        variant="underlined"
                       ></v-text-field>
                     </div>
                     <br /><br />
-
-                    <div
-                      class="text-subtitle-1 text-medium-emphasis d-flex align-center justify-space-between"
-                    >
-                      Password
-
-                      <a
-                        class="text-caption text-decoration-none text-black mt-10"
-                        href="#"
-                        rel="noopener noreferrer"
-                        target="_blank"
-                      >
-                        Forgot password?</a
-                      >
-                    </div>
 
                     <v-text-field
                       :append-inner-icon="visible ? 'mdi-eye-off' : 'mdi-eye'"
                       :type="visible ? 'text' : 'password'"
                       density="compact"
+                      label="Passsword"
                       placeholder="Enter your password"
                       hide-details
                       prepend-inner-icon="mdi-lock-outline"
-                      variant="plain"
-                      class="border-b-md"
+                      variant="underlined"
                       @click:append-inner="visible = !visible"
                     ></v-text-field>
                     <br /><br />
@@ -92,16 +79,42 @@ const visible = ref(false)
 
                     <v-card-text class="text-center">
                       <a
-                        class="text-black text-decoration-none"
+                        class="mx-auto text-secondary text-decoration-none"
                         href="#"
                         rel="noopener noreferrer"
                         target="_blank"
                       >
+                        <span> New to this website? |</span>
                         Sign up now <v-icon icon="mdi-chevron-right"></v-icon>
                       </a>
+                      <br />
+                      <a
+                        class="text-caption font-weight-medium text-decoration-none text-secondary mt-10"
+                        href="#"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        Forgot password?</a
+                      >
+                    
                     </v-card-text>
                   </v-card>
+              
+                
                 </div>
+                <br /><br /><br /><br>
+                <v-footer class="text-center d-flex flex-column ga-2 mt-10" color="green">
+                  <v-divider width="10000"></v-divider>
+                  <div class="text-caption font-weight-regular opacity-60">
+                    Privacy | Terms | Condition
+                  <br>
+
+                    &copy; {{ new Date().getFullYear() }} CSUCC. All Rights Reserved.
+
+                  </div>
+
+                  <v-divider></v-divider>
+                </v-footer>
               </v-col>
             </v-row>
           </v-container>
