@@ -47,7 +47,7 @@ const visible = ref(false)
                     position-fixed
                     opacity-20
                   >
-                    <h2 class="d-flex justify-center mb-2">CSUCC</h2>
+                    <h2 class="d-flex justify-center mb-2">SovTrain</h2>
 
                     <div class="mx-auto" max-width="344">
                       <v-text-field
@@ -96,21 +96,17 @@ const visible = ref(false)
                       >
                         Forgot password?</a
                       >
-                    
                     </v-card-text>
                   </v-card>
-              
-                
                 </div>
-                <br /><br /><br /><br>
+                <br /><br /><br /><br />
                 <v-footer class="text-center d-flex flex-column ga-2 mt-10" color="green">
                   <v-divider width="10000"></v-divider>
                   <div class="text-caption font-weight-regular opacity-60">
                     Privacy | Terms | Condition
-                  <br>
+                    <br />
 
-                    &copy; {{ new Date().getFullYear() }} CSUCC. All Rights Reserved.
-
+                    &copy; {{ new Date().getFullYear() }} SovTrain. All Rights Reserved.
                   </div>
 
                   <v-divider></v-divider>
