@@ -47,7 +47,7 @@ const visible = ref(false)
                     position-fixed
                     opacity-20
                   >
-                    <h2 class="d-flex justify-center mb-2">SovTrain</h2>
+                    <h2 class="d-flex justify-center mb-2">Softrain</h2>
 
                     <div class="mx-auto" max-width="344">
                       <v-text-field
@@ -106,7 +106,7 @@ const visible = ref(false)
                     Privacy | Terms | Condition
                     <br />
 
-                    &copy; {{ new Date().getFullYear() }} SovTrain. All Rights Reserved.
+                    &copy; {{ new Date().getFullYear() }} SoftTrain. All Rights Reserved.
                   </div>
 
                   <v-divider></v-divider>
