@@ -47,7 +47,7 @@ const visible = ref(false)
                     position-fixed
                     opacity-20
                   >
-                    <h2 class="d-flex justify-center mb-2">CSUCC</h2>
+                    <h2 class="d-flex justify-center mb-2">SoftTrain</h2>
 
                     <div class="mx-auto" max-width="344">
                       <v-text-field
@@ -109,7 +109,7 @@ const visible = ref(false)
                     Privacy | Terms | Condition
                   <br>
 
-                    &copy; {{ new Date().getFullYear() }} CSUCC. All Rights Reserved.
+                    &copy; {{ new Date().getFullYear() }} SoftTrain. All Rights Reserved.
 
                   </div>
 
