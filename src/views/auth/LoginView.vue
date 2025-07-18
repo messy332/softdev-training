@@ -47,7 +47,7 @@ const visible = ref(false)
                     position-fixed
                     opacity-20
                   >
-                    <h2 class="d-flex justify-center mb-2">Softrain</h2>
+                    <h2 class="d-flex justify-center mb-2">SofTrain</h2>
 
                     <div class="mx-auto" max-width="344">
                       <v-text-field
